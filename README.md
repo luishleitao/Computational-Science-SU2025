@@ -1,22 +1,22 @@
 # Protein Sequence Analysis — Machine Learning Project
 
-This repository contains the implementation and analysis for the project **"Unsupervised and Supervised Analysis of Protein Sequences"**, carried out in the course **Computational Science – Machine Learning for Physicists** at Sorbonne Université, under the supervision of Martin Weigt.
+This repository contains the implementation and analysis for the project **"Unsupervised and Supervised Analysis of Protein Sequences"**, carried out in the course **Computational Science** at Sorbonne Université, under the supervision of Martin Weigt.
 
 ## 📋 Project Overview
 
-The project aims to apply basic machine learning methods (unsupervised and supervised) to protein sequences. It includes:
+The project aims to apply machine learning methods (unsupervised and supervised) to protein sequences. It includes:
 
 - Preprocessing and encoding of multiple-sequence alignment (MSA) data
 - Dimensionality reduction (PCA)
 - Clustering (k-means, hierarchical)
-- Binary classification using logistic regression
+- Classification using logistic regression
 - Generative modeling of protein sequences: Variational autoencoder.
 
 All tasks are implemented and demonstrated in the provided Jupyter notebook.
 
 ## 📁 Files in this Repository
 
-- `Project_Luis_Joan.ipynb`: Main Colab notebook containing the full analysis, visualizations, and code.
+- `Protein_Generator.ipynb`: Main notebook containing the full analysis, visualizations, and code.
 - `project.pdf`: Original project description and instructions by the course instructor.
 - `README.md`: This documentation file.
 - `MSA_art.faa`: File with artificial protein sequences
