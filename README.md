@@ -9,8 +9,8 @@ The project aims to apply basic machine learning methods (unsupervised and super
 - Preprocessing and encoding of multiple-sequence alignment (MSA) data
 - Dimensionality reduction (PCA)
 - Clustering (k-means, hierarchical)
-- Binary classification (logistic regression, random forests, neural networks)
-- Generative modeling of protein sequences
+- Binary classification using logistic regression
+- Generative modeling of protein sequences: Variational autoencoder.
 
 All tasks are implemented and demonstrated in the provided Jupyter notebook.
 
@@ -19,6 +19,9 @@ All tasks are implemented and demonstrated in the provided Jupyter notebook.
 - `Project_Luis_Joan.ipynb`: Main Colab notebook containing the full analysis, visualizations, and code.
 - `project.pdf`: Original project description and instructions by the course instructor.
 - `README.md`: This documentation file.
+- `MSA_art.faa`: File with artificial protein sequences
+- `MSA_nat_with_annotation.faa`: File with natural protein sequences
+- `CS_Joan_Luis.pdf`: Supporting material for the presentation
 
 ## 🧬 Dataset Description
 
@@ -44,12 +47,12 @@ Each protein sequence entry contains a label indicating if it is **functional** 
 - Analysis of cluster composition and relation to functionality.
 
 ### 4. Functionality Classification
-- Supervised training of classifiers (e.g., logistic regression).
+- Supervised training of classifiers.
 - Evaluation on both natural and artificial sequences.
 - Metrics: TP, TN, FP, FN with discussion of soft classifier thresholds.
 
 ### 5. Sequence Generation
-- A generative model is trained to sample new sequences.
+- A generative model (VAE) is trained to sample new sequences.
 - Evaluation of generated sequences' plausibility and predicted functionality.
 
 
@@ -59,7 +62,7 @@ Key findings include:
 - Clear separation between functional and non-functional sequences in PCA space.
 - Clustering partially aligns with functionality.
 - Classifiers achieve reasonable accuracy.
-- Generated sequences exhibit functional-like properties under the trained model.
+- Projection of the generated sequences onto the principal components closely mirros the distribution of the natural training data.
 
 ## 👥 Authors
 
